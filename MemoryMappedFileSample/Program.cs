@@ -8,9 +8,9 @@ namespace MemoryMappedFileSample
     {
         static void Main(string[] args)
         {
-           var bytes = FileReader.Read("MilkyWay.jpg");
+           var bytes = FileProcessor.Read("MilkyWay.jpg");
 
-            FileReader.Write("MilkyWay002.jpg",bytes );
+            FileProcessor.Write("MilkyWay002.jpg",bytes );
         }
     }
 }

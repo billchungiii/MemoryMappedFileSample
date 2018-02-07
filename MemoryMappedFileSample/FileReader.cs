@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MemoryMappedFileSample
 {
-    class FileReader
+    class FileProcessor
     {
         public static byte[] Read(string path)
         {
